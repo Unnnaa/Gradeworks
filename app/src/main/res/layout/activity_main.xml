@@ -11,111 +11,86 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="80dp"
             android:text="Java"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
             android:id="@+id/network"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="52dp"
             android:text="Network"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/java" />
+            app:layout_constraintTop_toBottomOf="@+id/java"/>
 
     <TextView
             android:id="@+id/database"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="52dp"
             android:text="Database"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/network" />
+            app:layout_constraintTop_toBottomOf="@+id/network"/>
 
     <Button
             android:id="@+id/buttonTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
             android:layout_marginTop="56dp"
             android:layout_marginBottom="8dp"
             android:text="TOTAL"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/database"
-            app:layout_constraintVertical_bias="0.02" />
+            app:layout_constraintVertical_bias="0.02"/>
 
     <EditText
             android:id="@+id/editTextJava"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
             android:layout_marginTop="68dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
             android:ems="10"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/java"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
             android:id="@+id/editTextNetwork"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
             android:ems="10"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/network"
-            app:layout_constraintTop_toBottomOf="@+id/editTextJava" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextJava"/>
 
     <EditText
             android:id="@+id/editTextDatabase"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
             android:ems="10"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/database"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNetwork" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextNetwork"/>
 
-    <EditText
-            android:id="@+id/editTextTotal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:ems="10"
-            android:inputType="number"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/buttonTotal"
-            app:layout_constraintTop_toBottomOf="@+id/editTextDatabase" />
     AVE
 
     <Button
@@ -123,59 +98,50 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
             android:layout_marginTop="44dp"
             android:text="AVE"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonTotal" />
-
-    <EditText
-            android:id="@+id/editTextAve"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="68dp"
-            android:layout_marginLeft="68dp"
-            android:layout_marginTop="48dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:ems="10"
-            android:inputType="number"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/buttonAve"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTotal" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonTotal"/>
 
     <TextView
             android:id="@+id/Grade"
-            android:layout_width="96dp"
-            android:layout_height="34dp"
+            android:layout_width="109dp"
+            android:layout_height="70dp"
             android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
-            android:text="TextView"
+            android:text="Grade"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/ggrade"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonAve"
-            app:layout_constraintVertical_bias="0.338" />
+            app:layout_constraintVertical_bias="0.338"/>
 
     <TextView
             android:id="@+id/ggrade"
-            android:layout_width="214dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="88dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_width="201dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="TextView"
+            android:text="result"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/editTextAve"
-            app:layout_constraintTop_toBottomOf="@+id/buttonAve"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewAve"
+            app:layout_constraintVertical_bias="0.321" android:layout_marginEnd="16dp"/>
+    <TextView
+            android:text="You will see"
+            android:layout_width="197dp"
+            android:layout_height="52dp"
+            android:id="@+id/textViewTotal"
+            app:layout_constraintStart_toStartOf="@+id/editTextDatabase" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDatabase" android:layout_marginStart="12dp"/>
+    <TextView
+            android:text="Tadaa"
+            android:layout_width="198dp"
+            android:layout_height="48dp"
+            android:id="@+id/textViewAve"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonAve"
+            app:layout_constraintEnd_toEndOf="@+id/textViewTotal"/>
 </android.support.constraint.ConstraintLayout>
